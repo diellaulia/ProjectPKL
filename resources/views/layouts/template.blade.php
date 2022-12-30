@@ -12,7 +12,7 @@
 
   <!-- Favicons -->
   <link href="{{asset('/tema/img/logoo.png')}}" rel="icon">
-  <link href="{{asset('tema/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{asset('tema/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -55,8 +55,8 @@
           <li><a class="nav-link scrollto" href="(url('/'));#profil">Profil</a></li>
           <li><a class="nav-link scrollto" href="(url('/'));#produk">Produk</a></li>
           <li><a class="nav-link scrollto" href="(url('/'));#team">Tim</a></li>
-          <li><a href="/">Informasi</a></li>
-          <li><a href="/">Media</a></li>
+          <li><a href="/informasi">Informasi</a></li>
+          <li><a href="/media">Media</a></li>
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
           <li><a class="nav-link scrollto" href="#buku tamu">Buku Tamu</a></li>
 

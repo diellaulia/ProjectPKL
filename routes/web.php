@@ -24,13 +24,13 @@ Route::get('/media', [PublicController::class, 'media']);
 
 
 
-Route::middleware(['homepage', 'dashboard'])->group(function () {
-    Route::get('/', [DashboardController::class, 'index']);
-    });
- 
-// Route::group(['middleware', => ['auth'], 'profix' => 'dashboard'], function(){
+// Route::middleware(['homepage', 'dashboard'])->group(function () {
 //     Route::get('/', [DashboardController::class, 'index']);
-    
 // });
 
-require __DIR__.'/auth.php';
+// Route::group(['middleware', => ['auth'], 'profix' => 'dashboard'], function(){
+//     Route::get('/', [DashboardController::class, 'index']);
+
+// });
+
+require __DIR__ . '/auth.php';

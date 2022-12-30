@@ -1,8 +1,8 @@
 @extends('layouts.template')
 
-@section('judul')
+{{-- @section('judul')
 Home
-@endsection
+@endsection --}}
 
 @section('hero')
 <!-- ======= Hero Section ======= -->
