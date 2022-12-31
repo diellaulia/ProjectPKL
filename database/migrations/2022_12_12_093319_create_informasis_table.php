@@ -13,8 +13,8 @@ class CreateInformasisTable extends Migration
      */
     public function up()
     {
-        Schema::create('informasis', function (Blueprint $table) {
-            $table->string('no', 30)-> primary();
+        Schema::create('informasi', function (Blueprint $table) {
+            $table->string('no', 30)->primary();
             $table->string('judul');
             $table->string('slug')->unique();
             $table->string('konten');

@@ -6,15 +6,37 @@ Informasi
 
 @section('main')
 <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-             Ini halaman informasi
-            </div>
-          </div>
+    <div class="row" style="margin-top: 20vh">
+            <div class="col-lg-12">
+            <h4>Informasi</h4>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">informasi</li>
+                        </ol>
+                    </nav>
+                <section style="text-align:justify">
+<div class="container">
+  <div class="row">
+@foreach($informasi as $key => $data)
+    <div class="col-lg-4">
+      <img src="   {{$data->gambar}}" alt="">
+    </div>
+    <div class="col-lg-4">
+        {{$data->konten}}
+    </div>
+    {{-- <div class="col">
+      {{$data->gambar}}
+    </div>
+    <div class="col">
+      {{$data->judul}}
+    </div>
+    <div class="col">
+      {{$data->konten}}
+    </div> --}}
+    @endforeach
+  </div>
+</div>
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="tema/img/about.jpg" class="img-fluid" alt="">
-          </div>
 @endsection

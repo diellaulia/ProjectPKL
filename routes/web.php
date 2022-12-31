@@ -21,6 +21,16 @@ Route::get('/', [PublicController::class, 'index']);
 // Route::get('/homepage', [PublicController::class, 'homepage']);
 Route::get('/informasi', [PublicController::class, 'informasi']);
 Route::get('/media', [PublicController::class, 'media']);
+Route::get('/about', [PublicController::class, 'about']);
+Route::get('/profil', [PublicController::class, 'profil']);
+Route::get('/sejarah', [PublicController::class, 'sejarah']);
+Route::get('/visimisi', [PublicController::class, 'visimisi']);
+Route::get('/strategibisnis', [PublicController::class, 'strategibisnis']);
+Route::get('/kebijakanmutu', [PublicController::class, 'kebijakanmutu']);
+Route::get('/budayakerja', [PublicController::class, 'budayakerja']);
+Route::get('/wilayahkerja', [PublicController::class, 'wilayahkerja']);
+
+Route::get('/login', [PublicController::class, 'login']);
 
 
 

@@ -46,7 +46,7 @@ Home
               Namun saat ini sudah berkembang sehingga juga memproduksi okra, buncis, sweet potato (ubi jalar), dan jusme (minuman sari edamame).
               </p>
               <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <a href="/about" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                   <span>Read More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -384,7 +384,7 @@ Home
               <i class="ri-discuss-line icon"></i>
               <h3>Sejarah Perusahaan</h3>
               <p>PT Mitratani Dua Tujuh didirikan pada tanggal 17 Nopember 1994.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="/sejarah" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -394,7 +394,7 @@ Home
               <h3>Visi Misi</h3>
               <p>"Menjadi produsen sayuran beku dan olahannya yang terdepan, berkualitas tinggi 
                 dan beorientasi pada standar makanan sehat".</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="/visimisi" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -406,7 +406,7 @@ Home
                 1. Good Product
                 2. Good Market
                 3. Good Cooperation.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="/strategibisnis" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -416,7 +416,7 @@ Home
               <h3>Kebijakan Mutu</h3>
               <p>KEBIJAKAN SISTEM JAMINAN HALAL
                  KEBIJAKAN KEAMANAN PANGAN.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="/kebijakanmutu" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -428,7 +428,7 @@ Home
                  • T, Togetherness
                  • D, Dedicated to Service Excellent
                  • T, Thoughtfulness.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="/budayakerja" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -436,8 +436,7 @@ Home
             <div class="service-box pink">
               <i class="ri-discuss-line icon"></i>
               <h3>Wilayah Kerja</h3>
-              <p>.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="/wilayahkerja" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -461,9 +460,9 @@ Home
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
-              <h3 style="color: #07d5c0;">Edamame</h3>
+              <h3 style="color: #65c600;">Edamame</h3>
               <div class="price"><sup>Rp</sup>0<span> / </span></div>
-              <img src="tema/img/portfolio/produk 2.jpg" class="img-fluid" alt="">
+              <img src="tema/img/portfolio/produk 2.JPG" class="img-fluid" alt="">
               <ul>
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
@@ -494,7 +493,7 @@ Home
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="box">
-              <h3 style="color: #ff901c;">Sweet Potato</h3>
+              <h3 style="color: #65c600;">Sweet Potato</h3>
               <div class="price"><sup>Rp</sup>29<span> / mo</span></div>
               <img src="tema/img/portfolio/produk 9.png" class="img-fluid" alt="">
               <ul>
@@ -510,7 +509,7 @@ Home
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="box">
-              <h3 style="color: #ff0071;">Jusme</h3>
+              <h3 style="color: #65c600;">Jusme</h3>
               <div class="price"><sup>Rp</sup>49<span> / mo</span></div>
               <img src="tema/img/portfolio/produk 1.jpeg" class="img-fluid" alt="">
               <ul>
@@ -686,12 +685,12 @@ Home
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="tema/img/portfolio/produk 2.jpg" class="img-fluid" alt="">
+              <img src="tema/img/portfolio/produk 2.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Edamame</h4>
                 <p>edamame</p>
                 <div class="portfolio-links">
-                  <a href="tema/img/portfolio/produk 2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Edamame"><i class="bi bi-plus"></i></a>
+                  <a href="tema/img/portfolio/produk 2.JPG" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Edamame"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -918,7 +917,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/Komisaris Utama.jpeg" class="img-fluid" alt="">
+                <img src="tema/img/team/komisaris utama.jpeg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1011,7 +1010,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/gm-keu.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/gm-keu.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1029,7 +1028,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/gm-pro.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/gm-pro.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1047,7 +1046,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/gm-renbang.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/gm-renbang.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1065,7 +1064,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/kepala-spi.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/kepala-spi.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1083,7 +1082,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/keuangan.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/keuangan.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1101,7 +1100,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/akuntansi.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/akuntansi.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1119,7 +1118,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/umum.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/umum.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1137,7 +1136,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/pengolahan.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/pengolahan.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1155,7 +1154,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/pembenihan.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/pembenihan.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1173,7 +1172,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/pemasaran.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/pemasaran.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1191,7 +1190,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/budidaya1.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/budidaya1.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1209,7 +1208,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/budidaya2.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/budidaya2.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -1245,7 +1244,7 @@ Home
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="tema/img/team/teknik.jpg" class="img-fluid" alt="">
+                <img src="tema/img/team/teknik.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>

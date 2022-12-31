@@ -50,9 +50,9 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="(url('/'));#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="(url('/'));#about">About</a></li>
-          <li><a class="nav-link scrollto" href="(url('/'));#profil">Profil</a></li>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#profil">Profil</a></li>
           <li><a class="nav-link scrollto" href="(url('/'));#produk">Produk</a></li>
           <li><a class="nav-link scrollto" href="(url('/'));#team">Tim</a></li>
           <li><a href="/informasi">Informasi</a></li>
@@ -64,7 +64,7 @@
           <li><a class="nav-link scrollto" href="#dashboard">Dasboard</a></li>
           <li><a class="getstarted scrollto btn-danger" href="/" style="background: #FF0000 !important;">Logout</a></li>
           @else
-          <li><a class="getstarted scrollto" href="/">Login</a></li>
+          <li><a class="getstarted scrollto" href="/login">Login</a></li>
           @endif
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -95,9 +95,9 @@
             <p>"Menjadi produsen sayuran beku dan olahannya yang terdepan,
                berkualitas tinggi dan beorientasi pada standar makanan sehat".</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://twitter.com/mitratani_27" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/mitratani27.jember" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/mitrataniduatujuh/" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
