@@ -54,7 +54,14 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#profil">Profil</a></li>
           <li><a class="nav-link scrollto" href="(url('/'));#produk">Produk</a></li>
-          <li><a class="nav-link scrollto" href="(url('/'));#team">Tim</a></li>
+          <li class="dropdown"><a href="#team"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/komisaris">Komisaris</a></li>
+              <li><a href="/direksi">Direksi</a></li>
+              <li><a href="/gm">General Manager</a></li>
+              <li><a href="/kadiv">Kepala Divisi</a></li>
+            </ul>
+          </li>
           <li><a href="/informasi">Informasi</a></li>
           <li><a href="/media">Media</a></li>
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
@@ -66,6 +73,16 @@
           @else
           <li><a class="getstarted scrollto" href="/login">Login</a></li>
           @endif
+
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ID
+              </a>              
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">ID</a></li>
+                <li><a class="dropdown-item" href="#">EN</a></li>                
+            </ul>
+          </li>                              
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

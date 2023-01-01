@@ -29,7 +29,10 @@ Route::get('/strategibisnis', [PublicController::class, 'strategibisnis']);
 Route::get('/kebijakanmutu', [PublicController::class, 'kebijakanmutu']);
 Route::get('/budayakerja', [PublicController::class, 'budayakerja']);
 Route::get('/wilayahkerja', [PublicController::class, 'wilayahkerja']);
-
+Route::get('/komisaris', [PublicController::class, 'komisaris']);
+Route::get('/direksi', [PublicController::class, 'direksi']);
+Route::get('/gm', [PublicController::class, 'gm']);
+Route::get('/kadiv', [PublicController::class, 'kadiv']);
 Route::get('/login', [PublicController::class, 'login']);
 
 

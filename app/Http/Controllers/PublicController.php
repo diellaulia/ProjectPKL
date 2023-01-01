@@ -52,6 +52,22 @@ class PublicController extends Controller
     {
         return view('wilayahkerja');
     }
+    public function komisaris()
+    {
+        return view('komisaris');
+    }
+    public function direksi()
+    {
+        return view('direksi');
+    }
+    public function gm()
+    {
+        return view('gm');
+    }
+    public function kadiv()
+    {
+        return view('kadiv');
+    }
     public function login()
     {
         return view('login');
