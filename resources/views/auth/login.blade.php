@@ -51,7 +51,7 @@ background: #eee;
           class="img-fluid" alt="Phone image">
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-        <form method="post" action="(url('/login'));">
+        <form method="post" action="{{ route('login');}}">
           @csrf
           <!-- Email input -->
           <div class="form-outline mb-4">

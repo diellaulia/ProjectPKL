@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\DashboardController;
-
+use App\Http\Controllers\InformationController;
+use App\Http\Controllers\MediaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', [PublicController::class, 'index']);
+
 // Route::get('/homepage', [PublicController::class, 'homepage']);
 Route::get('/informasi', [PublicController::class, 'informasi']);
 Route::get('/media', [PublicController::class, 'media']);
@@ -33,7 +35,6 @@ Route::get('/komisaris', [PublicController::class, 'komisaris']);
 Route::get('/direksi', [PublicController::class, 'direksi']);
 Route::get('/gm', [PublicController::class, 'gm']);
 Route::get('/kadiv', [PublicController::class, 'kadiv']);
-Route::get('/login', [PublicController::class, 'login']);
 
 
 
@@ -41,9 +42,15 @@ Route::get('/login', [PublicController::class, 'login']);
 //     Route::get('/', [DashboardController::class, 'index']);
 // });
 
-// Route::group(['middleware', => ['auth'], 'profix' => 'dashboard'], function(){
-//     Route::get('/', [DashboardController::class, 'index']);
+Route::group([
+    'middleware' => [
+        'auth', 'verified'
+    ]
+], function () {
+    Route::get('/dashboard', [DashboardController::class, 'index']);
 
-// });
+    Route::resource('/informasi', InformationController::class);
+    Route::resource('/media', MediaController::class);
+});
 
 require __DIR__ . '/auth.php';
