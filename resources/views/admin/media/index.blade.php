@@ -6,7 +6,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Data Media</h4>
                   <p class="card-description">
-                    <a href="{{ route('media.create')}}" class="btn btn-primary btn-sm">Tambah</a>
+                    <a href="{{ route('medium.create')}}" class="btn btn-primary btn-sm">Tambah</a>
                     {{-- Add class <code>.table-bordered</code> --}}
                   </p>
                   <div class="table-responsive pt-3">
@@ -34,8 +34,8 @@
                               <td>{{ $item->judul }}</td>
                               <td>{{ Str::limit($item->konten,30, '...') }}</td>
                               <td>
-                                <a href="{{ route('media.edit', $item->id )}}" class="btn btn-success btn-sm">Edit</a>
-                                 <form method="POST" action="{{ route('media.destroy', $item->id) }}">
+                                <a href="{{ route('medium.edit', $item->id) }}" class="btn btn-success btn-sm">Edit</a>
+                                 <form method="POST" action="{{ route('medium.destroy', $item->id) }}">
                                     @method('DELETE')
                                     @csrf
                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>

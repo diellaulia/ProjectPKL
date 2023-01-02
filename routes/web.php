@@ -50,7 +50,7 @@ Route::group([
     Route::get('/dashboard', [DashboardController::class, 'index']);
 
     Route::resource('/information', InformationController::class);
-    Route::resource('/media', MediaController::class);
+    Route::resource('/medium', MediaController::class);
 });
 
 require __DIR__ . '/auth.php';

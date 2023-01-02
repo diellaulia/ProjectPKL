@@ -6,7 +6,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Edit Informasi</h4>
 
-                  <form class="forms-sample" action="{{ route('informasi.update', $informasi->id)}}" method="POST" enctype="multipart/form-data">
+                  <form class="forms-sample" action="{{ route('information.update', $informasi->id)}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     <div class="form-group row">
