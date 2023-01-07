@@ -60,8 +60,9 @@ class MediaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Media $media)
+    public function edit($id)
     {
+        $media = Media::find($id);
         return view('admin.media.edit', compact('media'));
     }
 
@@ -74,7 +75,13 @@ class MediaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $media = Media::find($id);
+
+        $media->judul =  $request->get('judul');
+        $media->konten = $request->get('konten');
+        $media->save();
+
+        return back();
     }
 
     /**

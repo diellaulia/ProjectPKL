@@ -6,7 +6,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Data Informasi</h4>
                   <p class="card-description">
-                    <a href="{{ route('informasi.create')}}" class="btn btn-primary btn-sm">Tambah</a>
+                    <a href="{{ route('information.create')}}" class="btn btn-primary btn-sm">Tambah</a>
                     {{-- Add class <code>.table-bordered</code> --}}
                   </p>
                   <div class="table-responsive pt-3">
@@ -42,8 +42,8 @@
                               <td>{{ $item->slug }}</td>
                               <td>{{ Str::limit($item->konten,30, '...') }}</td>
                               <td>
-                                <a href="{{ route('informasi.edit', $item->id )}}" class="btn btn-success btn-sm">Edit</a>
-                                 <form method="POST" action="{{ route('informasi.destroy', $item->id) }}">
+                                <a href="{{ route('information.edit', $item->id )}}" class="btn btn-success btn-sm">Edit</a>
+                                 <form method="POST" action="{{ route('information.destroy', $item->id) }}">
                                     @method('DELETE')
                                     @csrf
                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>

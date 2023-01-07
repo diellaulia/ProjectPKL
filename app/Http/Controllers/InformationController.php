@@ -76,8 +76,9 @@ class InformationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Informasi $informasi)
+    public function edit($id)
     {
+        $informasi = Informasi::find($id);
         return view('admin.informasi.edit', compact('informasi'));
     }
 
@@ -88,7 +89,7 @@ class InformationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Informasi $informasi)
     {
 
         $attr = $request->all();
@@ -97,19 +98,19 @@ class InformationController extends Controller
 
         if ($request->hasFile('gambar')) {
 
-            // $destinatnionImage = '/public/information/' . $;
 
             $reqImage = $request->file('gambar');
 
             $imageName = time() . '-' . $reqImage->getClientOriginalName();
-
             $dictionaryImage = $reqImage->storeAs('/public/information', $imageName);
-            $attr['gambar'] = $imageName;
 
-            dd($attr);
-            Informasi::update($attr);
-            return back();
+
+            Storage::delete('/public/information/' . $informasi->name);
+
+            $attr['gambar'] = $imageName;
         }
+
+        $informasi->update($attr);
 
         return back();
     }

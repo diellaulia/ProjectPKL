@@ -6,7 +6,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Tambah Media</h4>
 
-                  <form class="forms-sample" action="{{ route('media.store')}}" method="POST" enctype="multipart/form-data">
+                  <form class="forms-sample" action="{{ route('medium.store')}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group row">
                       <label for="" class="col-sm-3 col-form-label">Judul</label>

@@ -4,9 +4,9 @@
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Edit Media</h4>
+                  <h4 class="card-title">Edit Media {{$media->judul}}</h4>
 
-                  <form class="forms-sample" action="{{ route('media.update', $media->id)}}" method="POST" enctype="multipart/form-data">
+                  <form class="forms-sample" action="{{ route('medium.update', $media->id)}}" method="POST">
                     @csrf
                     @method('PUT')
                     <div class="form-group row">
