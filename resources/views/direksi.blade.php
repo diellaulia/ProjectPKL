@@ -5,7 +5,7 @@ Direksi
 @endsection
 
 @section('main')
-
+<section id="sejarah" class="hero d-flex align-items-center">
 <div class="container" data-aos="fade-up">
      <section id="team" class="team">
 
@@ -35,7 +35,6 @@ Direksi
                 <div class="member-info">
                     <h4>Arif Suhariadi</h4>
                     <span>Plt. Direktur</span>
-                    <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
                 </div>
                 </div>
             </div>
@@ -53,7 +52,6 @@ Direksi
                 <div class="member-info">
                     <h4>Tumbas Ginting</h4>
                     <span>SEVP Operation</span>
-                    <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
                 </div>
                 </div>
             </div>
@@ -70,8 +68,7 @@ Direksi
                 </div>
                 <div class="member-info">
                     <h4>Sihur Antoni</h4>
-                    <span>SEVP Business</span>
-                    <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+                    <span>SEVP Business Support</span>
                 </div>
                 </div>
             </div>

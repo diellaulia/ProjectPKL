@@ -5,6 +5,7 @@ Kebijakan Mutu
 @endsection
 
 @section('main')
+<section id="kebijakanmutu" class="hero d-flex align-items-center">
 <div class="container" data-aos="fade-up">
      
     <div class="row" style="margin-top: 20vh">
@@ -18,7 +19,7 @@ Kebijakan Mutu
                 </nav>
             <section style="text-align:justify">
             <ol>
-                <h5>KEBIJAKAN SISTEM JAMINAN HALAL</h5>
+                <h6>Kebijakan Sistem Jaminan Halal</h6>
                 <p>
                     PT Mitratani Dua Tujuh memproduksi sayuran beku siap saji yang halal, aman dan bermutu tinggi untuk memenuhi 
                     dan memuaskan kebutuhan dan harapan konsumen dengan :
@@ -42,7 +43,7 @@ Kebijakan Mutu
                     </li>
             </ol> 
             <ol>
-                <h5>KEBIJAKAN KEAMANAN PANGAN</h5>
+                <h6>Kebijakan Keamanan Pangan</h6>
                 <p>
                     PT Mitratani Dua Tujuh memproduksi sayuran beku siap saji dengan mutu tinggi dan aman dikonsumsi untuk memenuhi dan memuaskan kebutuhan dan harapan pelanggan.
                     Untuk mencapai kebijakan keamanan pangan ini, maka kami:

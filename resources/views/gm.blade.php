@@ -5,7 +5,7 @@ General Manager
 @endsection
 
 @section('main')
-
+<section id="sejarah" class="hero d-flex align-items-center">
 <div class="container" data-aos="fade-up">
      <section id="team" class="team">
 
@@ -34,7 +34,6 @@ General Manager
                 <div class="member-info">
                     <h4>Asmuni</h4>
                     <span>General Manager Produksi</span>
-                    <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
                 </div>
                 </div>
             </div>
@@ -52,7 +51,6 @@ General Manager
                 <div class="member-info">
                     <h4>Edy Zen Yuliantoko</h4>
                     <span>General Manager Perencanaan dan Pengembangan</span>
-                    <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
                 </div>
                 </div>
             </div>
@@ -70,7 +68,6 @@ General Manager
                 <div class="member-info">
                     <h4>Dwi Indra Pramono</h4>
                     <span>Kepala Satuan Pengawasan Internal</span>
-                    <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
                 </div>
                 </div>
             </div>
@@ -88,7 +85,6 @@ General Manager
                     <div class="member-info">
                         <h4>Subhan Ariyadi</h4>
                         <span>General Manager Keuangan dan Umum</span>
-                        <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
                     </div>
                 </div>
             </div>

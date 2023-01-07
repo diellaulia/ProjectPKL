@@ -5,7 +5,7 @@ Komisaris
 @endsection
 
 @section('main')
-
+<section id="sejarah" class="hero d-flex align-items-center">
 <div class="container" data-aos="fade-up">
      <section id="team" class="team">
 
@@ -35,7 +35,6 @@ Komisaris
                 <div class="member-info">
                 <h4>Aris Toharisman</h4>
                 <span>Komisaris Utama</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
                 </div>
             </div>
             </div>
@@ -54,7 +53,6 @@ Komisaris
                 <div class="member-info">
                 <h4>Muhammad Novi Saputro</h4>
                 <span>Komisaris</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
                 </div>
             </div>
             </div>

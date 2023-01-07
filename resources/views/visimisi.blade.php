@@ -5,6 +5,7 @@ Visi Misi
 @endsection
 
 @section('main')
+<section id="visimisi" class="hero d-flex align-items-center">
 <div class="container" data-aos="fade-up">
      
     <div class="row" style="margin-top: 20vh">
@@ -12,7 +13,7 @@ Visi Misi
         <h4>Visi Misi Perusahaan</h4>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">visi misi perusahaan</li>
                     </ol>
                 </nav>

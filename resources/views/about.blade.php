@@ -5,6 +5,7 @@ About
 @endsection
 
 @section('main')
+<section id="sejarah" class="hero d-flex align-items-center">
 <div class="container" data-aos="fade-up">
      
     <div class="row" style="margin-top: 20vh">
@@ -12,7 +13,7 @@ About
             <h4>Profile</h4>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">profil</li>
                     </ol>
                 </nav>

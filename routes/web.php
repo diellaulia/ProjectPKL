@@ -37,7 +37,6 @@ Route::get('/gm', [PublicController::class, 'gm']);
 Route::get('/kadiv', [PublicController::class, 'kadiv']);
 
 
-
 // Route::middleware(['homepage', 'dashboard'])->group(function () {
 //     Route::get('/', [DashboardController::class, 'index']);
 // });

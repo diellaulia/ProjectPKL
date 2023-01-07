@@ -53,7 +53,7 @@
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#profil">Profil</a></li>
-          <li><a class="nav-link scrollto" href="(url('/'));#produk">Produk</a></li>
+          <li><a class="nav-link scrollto" href="#produk">Produk</a></li>
           <li class="dropdown"><a href="#team"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/komisaris">Komisaris</a></li>
