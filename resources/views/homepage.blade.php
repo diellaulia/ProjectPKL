@@ -722,7 +722,8 @@ Home
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
+            <form action="/tambahcontact" method="post" class="php-email-form">
+            @csrf
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -743,7 +744,7 @@ Home
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
-                  <div class="error-message"></div>
+                  <!-- <div class="error-message"></div> -->
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
                   <button type="submit">Send Message</button>

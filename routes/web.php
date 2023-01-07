@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InformationController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MediaController;
 
 /*
@@ -51,5 +52,7 @@ Route::group([
     Route::resource('/information', InformationController::class);
     Route::resource('/medium', MediaController::class);
 });
+
+Route::post('/tambahcontact',[ContactController::class, 'store']);
 
 require __DIR__ . '/auth.php';
